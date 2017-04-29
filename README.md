@@ -18,9 +18,9 @@ template<typename T>
 void (std::vector<T>& ary, int b, int e)
 ```
 
-- sorting range: [b, e)
-- compare operator: `<`
-- assignment: use std::move
+- sorting range: `[b, e)`
+- compare operator: `ary[i] < ary[j]`
+- move: `ary[i] = std::move(ary[j])`
 
 
 # Current implementation
