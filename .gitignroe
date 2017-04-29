@@ -1,0 +1,13 @@
+
+x64/
+Debug/
+*.user
+*.vcxproj
+*.filters
+*.tlog
+*.log
+*.pdb
+*.exe
+*.lastbuildstate
+*.obj
+*.idb
